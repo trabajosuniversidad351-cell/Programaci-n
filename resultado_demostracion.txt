@@ -1,0 +1,83 @@
+
+01. Registrar cliente válido A
+   Cliente C01: Ana Ejemplo (ana@example.com)
+   Verificación: CORRECTA
+
+02. Registrar cliente válido B
+   Cliente C02: Luis Ejemplo (luis@example.com)
+   Verificación: CORRECTA
+
+03. Rechazar correo inválido
+   Error controlado: Correo electrónico: formato inválido.
+   Verificación: CORRECTA
+
+04. Rechazar cliente duplicado
+   Error controlado: Cliente duplicado: C01.
+   Verificación: CORRECTA
+
+05. Registrar sala
+   Sala Sala principal (10 personas), $50000/hora; cupos: 1.
+   Verificación: CORRECTA
+
+06. Registrar equipo
+   Equipo Proyector, $35000/día; unidades disponibles: 1.
+   Verificación: CORRECTA
+
+07. Registrar asesoría
+   Asesoría Asesoría Python, área Programación, $80000/hora; cupos: 1.
+   Verificación: CORRECTA
+
+08. Rechazar servicio con tarifa negativa
+   Error controlado: Tarifa por hora: debe ser un número finito no negativo.
+   Verificación: CORRECTA
+
+09. Crear reserva válida de sala
+   Reserva R01: Ana Ejemplo | Sala principal | duración 2 | $107100.00 | Pendiente
+   Verificación: CORRECTA
+
+10. Confirmar reserva de sala
+   Reserva R01: Ana Ejemplo | Sala principal | duración 2 | $107100.00 | Confirmada
+   Verificación: CORRECTA
+
+11. Rechazar reserva sin cliente existente
+   Error controlado: Cliente no encontrado: C99.
+   Verificación: CORRECTA
+
+12. Rechazar duración inválida
+   Error controlado: Duración: debe ser mayor que cero.
+   Verificación: CORRECTA
+
+13. Crear reserva válida de equipo
+   Reserva R04: Luis Ejemplo | Proyector | duración 3 | $105000.00 | Pendiente
+   Verificación: CORRECTA
+
+14. Confirmar reserva de equipo
+   Reserva R04: Luis Ejemplo | Proyector | duración 3 | $105000.00 | Confirmada
+   Verificación: CORRECTA
+
+15. Crear segunda reserva del mismo equipo
+   Reserva R05: Ana Ejemplo | Proyector | duración 1 | $35000.00 | Pendiente
+   Verificación: CORRECTA
+
+16. Rechazar confirmación sin disponibilidad
+   Error controlado: No hay cupos para Proyector.
+   Verificación: CORRECTA
+
+17. Procesar la reserva de sala
+   Reserva R01: Ana Ejemplo | Sala principal | duración 2 | $107100.00 | Procesada
+   Verificación: CORRECTA
+
+18. Rechazar cancelación de reserva procesada
+   Error controlado: No se puede cancelar una reserva procesada.
+   Verificación: CORRECTA
+
+19. Cancelar reserva confirmada de equipo
+   Reserva R04: Luis Ejemplo | Proyector | duración 3 | $105000.00 | Cancelada
+   Verificación: CORRECTA
+
+20. Confirmar reserva tras recuperar cupo
+   Reserva R05: Ana Ejemplo | Proyector | duración 1 | $35000.00 | Confirmada
+   Verificación: CORRECTA
+
+RESULTADO: 20/20 operaciones verificadas correctamente.
+Los errores y los eventos quedaron registrados en logs/eventos.log.

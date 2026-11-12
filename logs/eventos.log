@@ -1,0 +1,28 @@
+2026-11-12 20:22:57,890 | INFO | Cliente registrado: C01
+2026-11-12 20:22:57,890 | INFO | Cliente registrado: C02
+2026-11-12 20:22:57,890 | ERROR | Registro de cliente rechazado: Correo electrónico: formato inválido.
+2026-11-12 20:22:57,890 | ERROR | Operación 03 fallida: DatosInvalidosError: Correo electrónico: formato inválido.
+2026-11-12 20:22:57,891 | ERROR | Registro de cliente rechazado: Cliente duplicado: C01.
+2026-11-12 20:22:57,891 | ERROR | Operación 04 fallida: RegistroDuplicadoError: Cliente duplicado: C01.
+2026-11-12 20:22:57,891 | INFO | Servicio registrado: S01 (ReservaSala)
+2026-11-12 20:22:57,891 | INFO | Servicio registrado: S02 (AlquilerEquipo)
+2026-11-12 20:22:57,891 | INFO | Servicio registrado: S03 (AsesoriaEspecializada)
+2026-11-12 20:22:57,891 | ERROR | Operación 08 fallida: DatosInvalidosError: Tarifa por hora: debe ser un número finito no negativo.
+2026-11-12 20:22:57,891 | INFO | Reserva creada: R01
+2026-11-12 20:22:57,891 | INFO | Reserva confirmada: R01
+2026-11-12 20:22:57,891 | ERROR | Operación 11 fallida: RecursoNoEncontradoError: Cliente no encontrado: C99.
+2026-11-12 20:22:57,891 | ERROR | Operación 12 fallida: DatosInvalidosError: Duración: debe ser mayor que cero.
+2026-11-12 20:22:57,891 | INFO | Reserva creada: R04
+2026-11-12 20:22:57,891 | INFO | Reserva confirmada: R04
+2026-11-12 20:22:57,891 | INFO | Reserva creada: R05
+2026-11-12 20:22:57,891 | ERROR | Operación 16 fallida: ServicioNoDisponibleError: No hay cupos para Proyector.
+2026-11-12 20:22:57,891 | INFO | Reserva procesada: R01
+2026-11-12 20:22:57,891 | INFO | Finalizó intento de procesamiento: R01
+2026-11-12 20:22:57,891 | ERROR | Operación 18 fallida: OperacionNoPermitidaError: No se puede cancelar una reserva procesada.
+2026-11-12 20:22:57,891 | INFO | Reserva cancelada: R04
+2026-11-12 20:22:57,891 | INFO | Reserva confirmada: R05
+2026-11-12 15:25:52,375 | INFO | Servicio registrado: S01 (ReservaSala)
+2026-11-12 15:25:52,375 | INFO | Servicio registrado: S02 (AlquilerEquipo)
+2026-11-12 15:25:52,376 | INFO | Servicio registrado: S03 (AsesoriaEspecializada)
+2026-11-12 15:26:13,499 | ERROR | Registro de cliente rechazado: Correo electrónico: formato inválido.
+2026-11-12 15:26:13,500 | ERROR | Error en menú: DatosInvalidosError: Correo electrónico: formato inválido.

@@ -1,0 +1,31 @@
+test_01_cliente_valido (test_sistema.PruebasSoftwareFJ.test_01_cliente_valido) ... ok
+test_02_cliente_correo_invalido (test_sistema.PruebasSoftwareFJ.test_02_cliente_correo_invalido) ... ok
+test_03_cliente_duplicado (test_sistema.PruebasSoftwareFJ.test_03_cliente_duplicado) ... Registro de cliente rechazado: Cliente duplicado: C1.
+ok
+test_04_encapsulacion_cambio_correo (test_sistema.PruebasSoftwareFJ.test_04_encapsulacion_cambio_correo) ... ok
+test_05_rechazo_tarifa_negativa (test_sistema.PruebasSoftwareFJ.test_05_rechazo_tarifa_negativa) ... ok
+test_06_polimorfismo_tres_costos (test_sistema.PruebasSoftwareFJ.test_06_polimorfismo_tres_costos) ... ok
+test_07_calculo_con_impuesto_y_descuento (test_sistema.PruebasSoftwareFJ.test_07_calculo_con_impuesto_y_descuento) ... ok
+test_08_descuento_mayor_a_cien (test_sistema.PruebasSoftwareFJ.test_08_descuento_mayor_a_cien) ... ok
+test_09_duracion_invalida (test_sistema.PruebasSoftwareFJ.test_09_duracion_invalida) ... ok
+test_10_cliente_inexistente (test_sistema.PruebasSoftwareFJ.test_10_cliente_inexistente) ... ok
+test_11_cadena_excepciones (test_sistema.PruebasSoftwareFJ.test_11_cadena_excepciones) ... ok
+test_12_crear_reserva_pendiente (test_sistema.PruebasSoftwareFJ.test_12_crear_reserva_pendiente) ... ok
+test_13_confirmar_reserva (test_sistema.PruebasSoftwareFJ.test_13_confirmar_reserva) ... ok
+test_14_confirmacion_sin_cupo (test_sistema.PruebasSoftwareFJ.test_14_confirmacion_sin_cupo) ... ok
+test_15_cancelar_devuelve_cupo (test_sistema.PruebasSoftwareFJ.test_15_cancelar_devuelve_cupo) ... ok
+test_16_procesar_reserva (test_sistema.PruebasSoftwareFJ.test_16_procesar_reserva) ... ok
+test_17_rechazar_cancelacion_procesada (test_sistema.PruebasSoftwareFJ.test_17_rechazar_cancelacion_procesada) ... ok
+test_18_no_permitir_procesar_pendiente (test_sistema.PruebasSoftwareFJ.test_18_no_permitir_procesar_pendiente) ... No se pudo procesar la reserva R1: Solo se puede procesar una reserva confirmada.
+ok
+test_19_rechazar_reserva_duplicada (test_sistema.PruebasSoftwareFJ.test_19_rechazar_reserva_duplicada) ... ok
+test_20_limite_de_duracion_sala (test_sistema.PruebasSoftwareFJ.test_20_limite_de_duracion_sala) ... ok
+test_21_entrada_decimal_no_enteros (test_sistema.PruebasSoftwareFJ.test_21_entrada_decimal_no_enteros) ... ok
+test_22_rechazo_valor_numerico_no_finito (test_sistema.PruebasSoftwareFJ.test_22_rechazo_valor_numerico_no_finito) ... ok
+test_23_rechazo_parametro_vacio (test_sistema.PruebasSoftwareFJ.test_23_rechazo_parametro_vacio) ... ok
+test_24_rechazo_servicio_incorrecto (test_sistema.PruebasSoftwareFJ.test_24_rechazo_servicio_incorrecto) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.002s
+
+OK
