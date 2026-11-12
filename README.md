@@ -64,13 +64,3 @@ software_fj/
 
 Una reserva inicia **Pendiente**. Puede pasar a **Confirmada** si hay cupos y luego a **Procesada**. Las reservas pendientes y confirmadas pueden **Cancelarse**; al cancelar una confirmada se libera el cupo. Una reserva procesada no puede cancelarse. El sistema verifica que los registros existan, no estén duplicados y que los datos ingresados sean coherentes.
 
-### Nota sobre disponibilidad
-
-Los cupos se modelan como disponibilidad simultánea simplificada. No se incluyen fechas u horarios ni persistencia de datos, porque el alcance solicitado se centra en los principios orientados a objetos y la gestión de excepciones. Los cupos de una reserva procesada permanecen ocupados durante la sesión, y solamente la cancelación previa al procesamiento los libera.
-
-## Para publicar en GitHub
-
-1. Cree un repositorio nuevo en GitHub.
-2. Suba los archivos de esta carpeta (manteniendo sus subcarpetas).
-3. Incluya el enlace del repositorio en la entrega académica.
-4. Compruebe que otra persona pueda clonar el repositorio y ejecutar las dos instrucciones de prueba.
